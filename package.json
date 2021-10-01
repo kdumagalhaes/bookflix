@@ -1,0 +1,27 @@
+{
+    "name": "bookflix",
+    "version": "1.0.0",
+    "description": "Desafio frontend do bootcamp da Digital Innovation One, oferecido pela Impulso",
+    "main": "./index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kdumagalhaes/bookflix.git"
+    },
+    "keywords": [
+        "book",
+        "netflix",
+        "frontend"
+    ],
+    "author": "kdumagalhaes",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kdumagalhaes/bookflix/issues"
+    },
+    "homepage": "https://github.com/kdumagalhaes/bookflix#readme",
+    "dependencies": {
+        "node-fetch": "^3.0.0"
+    }
+}
