@@ -56,3 +56,24 @@
     right: 10px;
     top: 7px;
 }
+
+.navigation {
+    flex-basis: 260px;
+}
+
+.navigation__list {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #6d6d6d;
+    font-weight: 900;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navigation__link:hover {
+    color: #fff;
+}
