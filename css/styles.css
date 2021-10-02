@@ -44,6 +44,12 @@
     padding: 0 20px;
     caret-color: #303030;
     font-weight: 900;
+    border: 1px solid transparent;
+    transition: border 0.3s;
+}
+
+.search__bar:hover {
+    border: 1px solid #E50914;
 }
 
 .search__bar::placeholder {
