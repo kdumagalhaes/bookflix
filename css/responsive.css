@@ -32,6 +32,10 @@
     .hero-content__text {
         font-size: 0.85rem;
     }
+    .books {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 40px;
+    }
 }
 
 
@@ -62,6 +66,10 @@
     }
     .navigation__link {
         font-size: 0.75rem;
+    }
+    .books {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 20px;
     }
 }
 
@@ -105,6 +113,12 @@
         flex-direction: column;
     }
     .hero-content__buttons>button {
+        margin-bottom: 20px;
+    }
+    .books {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-bottom: 20px;
     }
 }
