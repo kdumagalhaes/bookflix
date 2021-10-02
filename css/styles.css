@@ -19,6 +19,10 @@
     display: flex;
 }
 
+.grid {
+    display: grid;
+}
+
 .logo__text {
     font-size: 1px;
     text-indent: -9999px;
@@ -92,6 +96,7 @@
     height: 450px;
     background: transparent;
     background-size: cover;
+    margin-bottom: 40px;
 }
 
 .hero-content {
@@ -142,4 +147,24 @@
 
 .button__icon {
     margin-right: 10px;
+}
+
+.books {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 40px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.books__cover {
+    width: 100%;
+    max-width: 240px;
+    max-height: 460px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.books__cover:hover {
+    transform: scale(1.03);
 }
