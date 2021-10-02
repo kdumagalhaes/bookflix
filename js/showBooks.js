@@ -10,11 +10,11 @@ let term = null
 function searchBooks() {
     searchBar.addEventListener('keyup', (e) => {
         term = e.target.value.toLowerCase()
-        fetchBooks(term)
+        showBooks(term)
     })
 }
 
-function fetchBooks(term) {
+function showBooks(term) {
     if (term === undefined || term === '') {
         booksGrid.innerHTML = ''
         books.forEach(({ name }) => {
@@ -32,5 +32,5 @@ function fetchBooks(term) {
     }
 }
 
-fetchBooks()
 searchBooks()
+export default showBooks()
