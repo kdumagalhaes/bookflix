@@ -49,10 +49,12 @@ const books = [{
 ]
 
 let booksGrid = document.getElementById('books')
-const bookImg =
 
+function fetchBooks() {
     books.forEach(({ thumb, name }) => {
-        console.log(thumb, name)
         const bookImg = `<img class="books__cover" src="./img/books/${name}.jpeg" alt="${name}">`
         booksGrid.innerHTML += bookImg
     })
+}
+
+export default fetchBooks()
