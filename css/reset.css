@@ -8,6 +8,10 @@
 
 body {
     background-color: #000;
+    background-image: url('../img/harry-potter-bg-min.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 80px;
     color: #fff;
 }
 

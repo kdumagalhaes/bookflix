@@ -26,6 +26,12 @@
     .navigation__link {
         font-size: 0.75rem;
     }
+    .hero-content__title {
+        font-size: 1.6rem;
+    }
+    .hero-content__text {
+        font-size: 0.85rem;
+    }
 }
 
 
@@ -87,5 +93,18 @@
     }
     .navigation {
         width: 200px;
+    }
+    .hero {
+        height: 500px;
+    }
+    .hero-content {
+        padding: 0 30px;
+    }
+    .hero-content__buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-content__buttons>button {
+        margin-bottom: 20px;
     }
 }
