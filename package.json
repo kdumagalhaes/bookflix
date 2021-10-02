@@ -22,6 +22,7 @@
     },
     "homepage": "https://github.com/kdumagalhaes/bookflix#readme",
     "dependencies": {
+        "express": "^4.17.1",
         "node-fetch": "^3.0.0"
     }
 }
