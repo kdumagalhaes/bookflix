@@ -22,8 +22,8 @@
             </a>
         </div>
 
-        <form class="search flex-container">
-            <input class="search__bar" type="search" name="search-bar" id="search-bar" placeholder="Pesquise o nome do seu livro preferido..." autofocus>
+        <form class="search flex-container" id="search-form">
+            <input class="search__bar" type="search" name="search-bar" id="search-bar" placeholder="Pesquise o nome do livro e aperte Enter..." autofocus>
             <img class="search__icon" src="./img/svg/search-icon.svg" alt="buscar">
         </form>
 
@@ -56,9 +56,9 @@
             </div>
         </div>
     </section>
-    <section class="books grid safe-area-padding" id="books">
+    <section class="books grid safe-area-padding" id="books-grid">
     </section>
-    <script src="./js/index.js" defer type="module"></script>
+    <script src="./js/fetchBooks.js" defer type="module"></script>
 </body>
 
 </html>
