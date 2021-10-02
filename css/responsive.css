@@ -1,3 +1,31 @@
+@media only screen and (max-width: 1024px) {
+    .safe-area-padding {
+        padding: 0 50px;
+    }
+    .logo__img {
+        max-width: 227px;
+        max-height: 46px;
+    }
+    .search {
+        flex-basis: 300px;
+    }
+    .search__bar {
+        height: 35px;
+    }
+    .search__bar::placeholder {
+        font-size: 0.65rem;
+    }
+    .search__icon {
+        display: none;
+    }
+    .navigation {
+        flex-basis: 200px;
+    }
+    .navigation__link {
+        font-size: 0.75rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .safe-area-padding {
         padding: 0 20px;
